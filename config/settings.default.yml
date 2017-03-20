@@ -39,7 +39,7 @@
 #
 # :host: "www.example.com"
 #
-:host: ""
+:host: "rethreaded.herokuapp.com"
 
 
 # Base URL
