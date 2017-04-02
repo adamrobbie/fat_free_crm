@@ -356,17 +356,28 @@ opportunity_stage:
   - :final_review
   - :won
   - :lost
+  - "Meeting"
+  - "Lunch and Learn"
+  - "Outside Event"
+  - "Rethreaded 101"
+  - "T-Shirt Drive"
+  - "Wholesale"
 
 opportunity_stage_color:
-  :prospecting  : Silver
-  :analysis     : PaleGoldenRod
-  :presentation : Salmon
-  :proposal     : Gold
-  :negotiation  : Orchid
-  :final_review : Turquoise
-  :won          : Lime
-  :lost         : OrangeRed
-
+  :prospecting      : Silver
+  :analysis         : PaleGoldenRod
+  :presentation     : Salmon
+  :proposal         : Gold
+  :negotiation      : Orchid
+  :final_review     : Turquoise
+  :won              : Lime
+  :lost             : OrangeRed
+  "Meeting"         : Silver
+  "Lunch and Learn" : OrangeRed
+  "Outside Event"   : Lime
+  "Rethreaded 101"  : Salmon
+  "T-Shirt Drive"   : Turquoise
+  "Wholesale"       : Orchide
 # Task Category, Due Date, and Completed Date.
 #------------------------------------------------------------------------------
 task_category:
