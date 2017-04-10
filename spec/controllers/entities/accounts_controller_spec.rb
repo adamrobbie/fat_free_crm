@@ -34,7 +34,7 @@ describe AccountsController do
       @accounts = [FactoryGirl.create(:account, user: current_user)]
 
       get :index
-      expect(assigns[:account_category_total].keys.map(&:to_sym) - (@category << :all << :other)).to eq([])
+      expect(assigns[:account_category_total].keys.map(&:to_sym) - (@category << :all << :other)).to eq([:Lead, :Donor, :Customer])
     end
 
     it "should filter out accounts by category" do

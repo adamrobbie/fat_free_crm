@@ -17,4 +17,5 @@
       = link_to(t(:sign_up), signup_path) << " |" if can_signup?
       = link_to(t(:about), "#", :title => t(:about_ffc), :onclick => "$('#about').dialog({ title: this.title, modal: true }); return false;")
   %h3
-    = link_to("Rethreaded", root_path)
+    = image_tag("Color_logo (1).png", size: "200x50") do
+      = link_to("Rethreaded", root_path)
